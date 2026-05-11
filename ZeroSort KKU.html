@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ZeroSort KKU</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #f4f6f3;
+  color: #2e2e2e;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  color: #2e7d32;
+  margin: 0;
+}
+
+header p {
+  opacity: 0.7;
+}
+
+/* SECTION */
+.section {
+  padding: 40px 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* USER FLOW */
+.flow {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.step {
+  text-align: center;
+  max-width: 150px;
+}
+
+.step img {
+  width: 60px;
+}
+
+/* PHONE MOCKUP */
+.phones {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 20px;
+}
+
+.phone {
+  width: 220px;
+  border-radius: 30px;
+  background: white;
+  padding: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.phone img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* BIN COLORS */
+.bin {
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+}
+
+.green { background: #2e7d32; }
+.yellow { background: #f9a825; }
+.blue { background: #1565c0; }
+.red { background: #c62828; }
+
+/* FOOTER */
+footer {
+  background: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>♻️ ZeroSort KKU</h1>
+  <p>Smart Waste, Smart Future</p>
+</header>
+
+<!-- USER FLOW -->
+<section class="section">
+  <div class="title">USER FLOW</div>
+  <div class="flow">
+    <div class="step">📷<p>Scan QR</p></div>
+    <div class="step">🗑️<p>Choose Waste</p></div>
+    <div class="step">💡<p>Get Guidance</p></div>
+    <div class="step">✅<p>Confirm</p></div>
+    <div class="step">⭐<p>Earn Points</p></div>
+  </div>
+</section>
+
+<!-- APP SCREENS -->
+<section class="section">
+  <div class="title">APP SCREENS</div>
+
+  <div class="phones">
+    <div class="phone"><img src="https://via.placeholder.com/300x600"></div>
+    <div class="phone"><img src="https://via.placeholder.com/300x600"></div>
+    <div class="phone"><img src="https://via.placeholder.com/300x600"></div>
+    <div class="phone"><img src="https://via.placeholder.com/300x600"></div>
+    <div class="phone"><img src="https://via.placeholder.com/300x600"></div>
+  </div>
+</section>
+
+<!-- MORE SCREENS -->
+<section class="section">
+  <div class="title">MORE SCREENS</div>
+  <div class="grid">
+    <div class="phone"><img src="https://via.placeholder.com/300x600"></div>
+    <div class="phone"><img src="https://via.placeholder.com/300x600"></div>
+    <div class="phone"><img src="https://via.placeholder.com/300x600"></div>
+    <div class="phone"><img src="https://via.placeholder.com/300x600"></div>
+  </div>
+</section>
+
+<!-- BIN QR -->
+<section class="section">
+  <div class="title">BIN QR CODE EXAMPLE</div>
+  <div class="grid">
+    <div class="bin green">General Waste</div>
+    <div class="bin yellow">Recyclable</div>
+    <div class="bin blue">Paper</div>
+    <div class="bin red">Hazardous</div>
+  </div>
+</section>
+
+<!-- POINT SYSTEM -->
+<section class="section">
+  <div class="title">POINT SYSTEM</div>
+  <div class="flow">
+    <div class="step">🌱<p>Scan</p></div>
+    <div class="step">⭐<p>Points</p></div>
+    <div class="step">🎁<p>Rewards</p></div>
+  </div>
+</section>
+
+<footer>
+  <p>Let’s sort it right, for our planet 🌍</p>
+</footer>
+
+</body>
+</html>
